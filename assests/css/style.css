@@ -50,3 +50,45 @@ header nav ul li a {
 }
 
 /*HEADER / NAV BAR STYLE ENDS */
+
+
+/* FOOTER STYLE START */
+footer {
+    padding: 20px 35px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 25px;
+    color: blue;
+    justify-content: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: blue;
+}
+
+footer nav {
+    margin: 7px 0;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+
+footer nav ul li a {
+    margin: 0 20px;
+    font-weight: lighter;
+    font-style: 1.25vw;
+}
+/* FOOTER STYLE ENDS */
