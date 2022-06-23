@@ -92,3 +92,101 @@ footer nav ul li a {
     font-style: 1.25vw;
 }
 /* FOOTER STYLE ENDS */
+
+/* SUBTITLE BEGINS*/
+
+.subtitle {
+    background-image: url(../images/christian-haley-future-city-a-christian-haley-2017.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+
+.subtitle h2 {
+    justify-content: left;
+    color: white;
+    padding-left: 90%;
+}
+/* SUBTITLE ENDS */
+
+/*ABOUT ME BEGINS*/
+
+.about-me {
+    display: flex;
+    color: blue;
+    padding: 50px;
+    column-count: 2;
+    column-gap: 40px;
+}
+.column1-2 {
+    float: left;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+.about-me:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*ABOUT ME ENDS*/
+
+  /*WORK BEGINS*/
+
+/* Create two unequal columns that floats next to each other */
+.work {
+    display: flex;
+    padding: 50px;
+    color: blue;
+  }
+
+.column2-1 {
+    column-count: 2;
+    column-gap: 100px;
+}
+
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .work:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .card img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  
