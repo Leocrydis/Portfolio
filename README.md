@@ -8,7 +8,7 @@ A website that offers an overview of projects that i have designed or participat
 * CSS
 
 ## Website
-https://leocrydis.github.io/run-buddy/
+[https://leocrydis.github.io/Portfolio/]
 
 ## Contribution
 Made by [Isaiah Alvarez]
