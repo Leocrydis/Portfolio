@@ -64,6 +64,12 @@ header nav ul li a {
     font-style: 1.55vw;
     border-bottom: 5px solid var(--tertiary);
     padding-bottom: 3px;
+    
+}
+nav ul li a:hover {
+    background-color: white;
+    opacity: 75%;
+    
 }
 
 
@@ -109,6 +115,7 @@ footer nav ul li a {
     font-weight: lighter;
     font-style: 1.25vw;
 }
+
 /* FOOTER STYLE ENDS */
 
 /* SUBTITLE BEGINS*/
